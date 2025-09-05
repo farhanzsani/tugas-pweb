@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(asset/windows-11-forest-landscape-scenery-sunrise-stock-day-light-3840x2160-5665.jpg) ;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 80px;
+}
+
+
+.form-container {
+    background-color: rgb(255,255,255,0.5);
+    padding: 30px 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: #1c1e21;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #606770;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #dddfe2;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #4b4f56;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(204, 208, 213, 0.7);
+    border-radius: 20px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.submit-btn:hover {
+    background-color: #166fe5;
+}
+
+.footer{
+    height: 900px;
+}
